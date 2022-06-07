@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>acceuil</title>
+
+    <link rel="stylesheet" href="./CSS/styles.css">
+</head>
+<body>
+    <h1>Contact</h1>
+    <div class="menu">
+        <a href="index.html" title="accueil du site">Accueil</a>
+        <a href="apropos.html" title="a propos du site">A propos</a>
+        <a href="contact.html" title="Contact">Contact</a>
+    </div>
+    <br></br>
+        <form method="get">
+            <h2>Formulaire de contact</h2>
+            <label for="nom">Votre nom</label>
+            <input placeholder="ex : Dumo" type="text" id="nom" name="nom">
+            <br></br>
+            <label for="prenom">Votre prénom</label>
+            <input placeholder="ex : Jean" type="text" id="prenom"
+                name="prenom">
+            <br></br>
+            <label for="mail">Votre email</label>
+            <input placeholder="example@example.com" type="text" id="mail"
+                name="mail">
+            <br></br>
+            <label for="adresse">Votre adresse</label>
+            <input placeholder="3 Avenue Montaigne" type="text" id="adresse"
+                name="adresse">
+            <br></br>
+            <label for="description">Votre description</label>
+            <textarea name="description" id="description" cols="20" rows="1"></textarea>
+            <br></br>
+            Quel type de musique aimez vous?
+            <br></br>
+            <input type="checkbox" id="jazz" name="jazz">
+            <label for="jazz">Le Jazz</label>
+            <input type="checkbox" id="techno" name="techno">
+            <label for="techno">La Techno</label>
+            <input type="checkbox" id="rock" name="rock">
+            <label for="rock">Le Rock</label>
+            <br></br>
+            <fieldset>
+                <legend>
+                    Vous êtes :
+                </legend>
+            <input type="radio" name="sexe" id="sexe" value="femme" id="femme" checked/><label for="femme"> une femme</label>
+            <input type="radio" name="sexe" value="homme" id="homme"/><label for="homme"> un homme</label>
+            <div class="ctrn">
+            <input type="radio" name="sexe" value="nsp" id="nsp"/><label for="nsp"> non&nbsp;définie</label>
+            </div>
+            </fieldset>
+            <br>
+            <label for="pays">De quel pays venez vous ?</label>
+            <select name="pays" id="pays">
+                <option value="france">France</option>
+                <option value="espagne">Espagne</option>
+                <option value="royaume-uni">Royaume-Uni</option>
+            </select>
+            <br></br>
+            <div class="centerbtn">
+            <input type="reset" value="Remettre à zéros">
+            <input type="submit" value="Envoyer">
+            </div>
+        </form>
+    </form>
+</body>
+</html>
