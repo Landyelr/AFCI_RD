@@ -1,0 +1,16 @@
+a {
+    padding-left: 10px;
+    padding-right: 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: goldenrod;
+    color: black;
+
+}
+
+header {
+    text-align: center;
+    border: 10px solid black;
+    padding: 1px;
+    background-color: black;
+}

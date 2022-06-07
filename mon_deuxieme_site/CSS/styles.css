@@ -1,8 +1,9 @@
-a {
-    font-weight: bold;
-    text-decoration: none;
-    background: goldenrod;
-    color: black;
+body {
+    box-sizing: border-box;
+    margin: 0px;
+    width: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: #000;
 }
 
 h1 {
@@ -20,21 +21,15 @@ p{
     text-align: center;
 }
 
-h1{
-    text-align: center;
-}
-
-div.menu {
-    margin-left: auto;
-    margin-right: auto;
-    width: 15em
+.imgcenter {
+    display: block;
+    margin: auto;
 }
 
 .center {
-    border: 2px solid goldenrod;
-    display: block;
     margin-left: auto;
-    margin-right: auto 
+    margin-right: auto;
+    width: 12em
 }
 
 form {
@@ -44,22 +39,9 @@ form {
     font-weight: bold;
     margin-left: auto;
     margin-right: auto;
-    width: 25em
+    width: 30em
 }
 
-div.centerbtn {
-    margin-left: auto;
-    margin-right: auto;
-    width: 12em
-}
-
-body {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background: #000;
-}
-
-.ctnr {
-    margin-left: auto;
-    margin-right: auto;
-    width: 12em
+.col-6 {
+    text-align: center;
 }
