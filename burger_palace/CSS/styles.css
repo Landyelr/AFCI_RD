@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Tomorrow:wght@700&display=swap');
+
+body {
+    font-family: 'Tomorrow', sans-serif !important;
+    box-sizing: border-box;
+    margin: 0px;
+    width: 100%;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.imgcenter {
+    display: block;
+    margin: auto;
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+    width: 12em
+}
+
+form {
+    font-weight: bold;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30em
+}
+
+.col-6 {
+    text-align: center;
+}
+
+.banner {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.descrp-brg {
+    font-size: 15px;
+}
+
+.contenant {
+    position: relative;
+    text-align: center;
+    color: blueviolet;
+}
+
+.texte {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% -50%);
+}
+
+.nosburger {
+    font-weight: bold !important;
+}
+
+.row {
+    font-weight: bold !important;
+}
