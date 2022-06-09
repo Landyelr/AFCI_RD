@@ -10,6 +10,7 @@ a {
     align-content: flex-end !important;
     justify-content: flex-end !important;
     background-color: transparent !important;
+    padding: 0 !important;
 }
 
 a.nav-link {
@@ -21,4 +22,17 @@ a.nav-link {
 
 .collapse.navbar-collapse {
     flex-grow: unset !important;
+}
+
+.navbar.navbar-expand-lg.navbar-dark.bg-transparent.bp {
+    
+    background-color: black !important;
+}
+
+a:hover {
+    text-decoration: underline!important;
+}
+
+.logo {
+    filter: invert(1);
 }
