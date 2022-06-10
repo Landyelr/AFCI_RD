@@ -36,13 +36,6 @@ form {
     padding: 0;
 }
 
-.banner {
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: -1;
-}
-
 .descrp-brg {
     font-size: 15px;
 }
@@ -50,7 +43,7 @@ form {
 .contenant {
     position: relative;
     text-align: center !important;
-    color:blac;
+    color:black;
     margin: 0 auto !important;
 }
 
@@ -61,32 +54,12 @@ form {
     transform: translate(-50% -50%);
 }
 
-footer {
-    text-align: center;
-    background-color: black !important;
-    color: white !important;
-}
-
-.logofooter {
-    filter: invert(100%);
-}
-
-.plus {
-    color: white !important;
-
-}
-
-.titlefooter {
-    font-size: 20px;
-}
-
-.fab {
-    color: white !important;
-}
-
 .nosburger {
     margin-left: -100% !important;
     font-size: 130px;
     margin-top: -10%;
 }
 
+.titlehome {
+    font-size: 40px;
+}
