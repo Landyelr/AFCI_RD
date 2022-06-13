@@ -1,4 +1,4 @@
-a {
+a.nav-link {
     padding-left: 10px !important;
     padding-right: 10px !important;
     text-decoration: none !important;
@@ -35,4 +35,6 @@ a:hover {
 
 .logo {
     filter: invert(1) !important;
+    width: 140px !important;
+    margin-left: 10px !important;
 }

@@ -1,41 +1,28 @@
-<nav class="navbar navbar-expand-lg navbar-dark bg-black text-white">
+<nav class="navbar navbar-expand-lg navbar-dark bg-black">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#"><img class="logo" src="./IMG/logo.png" alt="logo burger palace"></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
 
-    <div class="container-fluid">  
-
-        <a class="navbar-brand" href="index.php"><img src="./IMG/logo.png" alt="palace burger logo" width="200px"></a>
-
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
-                
-                <span class="navbar-toggler-icon"></span>
-
-            </button>
-              
-                <div class="collapse navbar-collapse" id="navbarColor01">
-
-                    <ul class="navbar-nav me-auto">
-
-                      <li class="nav-item">
-                        <a class="nav-link" href="index.php">ACCEUIL</a>
-                      </li>
-
-                      <li class="nav-item">
-                        <a class="nav-link" href="burger.php">BURGER</a>
-                      </li>
-
-                      <li class="nav-item">
-                        <a class="nav-link" href="dessert.php">DESSERT</a>
-                      </li>
-
-                      <li class="nav-item">
-                        <a class="nav-link" href="apropos.php">A PROPOS</a>
-                      </li>
-
-                      <li class="nav-item">
-
-                        <a class="nav-link" href="contact.php">CONTACT</a>
-                        
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </nav>
+    <div class="collapse navbar-collapse" id="navbarColor02">
+      <ul class="navbar-nav me-auto">
+        <li class="nav-item">
+          <a class="nav-link text-white" href="index.php">ACCUEIL</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" href="burger.php">BURGER</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" href="dessert.php">DESSERT</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" href="apropos.php">A PROPOS</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" href="contact.php">CONTACT</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>

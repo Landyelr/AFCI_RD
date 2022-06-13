@@ -1,23 +1,16 @@
-footer {
-    text-align: center;
-    background-color: black !important;
+h5.text-uppercase.mb-4 {
+    text-align: center !important;
+}
+
+a.link {
+    text-decoration: none !important;
     color: white !important;
-    font-family: 'tomorrow', sans-serif !important;
 }
 
-.logofooter {
-    filter: invert(100%);
+p.pfooter {
+    text-align: center !important;
 }
 
-.plus {
-    color: white !important;
-
-}
-
-.titlefooter {
-    font-size: 20px;
-}
-
-.fab {
-    color: white !important;
+div.mt-4 {
+    text-align: center !important;
 }

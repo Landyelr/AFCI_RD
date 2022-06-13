@@ -1,43 +1,32 @@
 @import url('https://fonts.googleapis.com/css2?family=Tomorrow:wght@700&display=swap');
 
 body {
-    font-family: 'Tomorrow', sans-serif !important;
+    font-family: 'Tomorrow', sans-serif;
     box-sizing: border-box;
     margin: 0px;
     width: 100%;
     text-align: center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.imgcenter {
-    display: block;
-    margin: auto;
+p.title-brg {
+    font-size: 26px;
 }
 
-.center {
-    margin-left: auto;
-    margin-right: auto;
-    width: 12em
+p.descrp-brg {
+    font-size: 16px;
 }
 
-form {
-    font-weight: bold;
-    margin-left: auto;
-    margin-right: auto;
-    width: 30em
+.titlehome {
+    font-size: 40px;
+    padding-top: 20px;
 }
 
-.col-6 {
-    text-align: center;
+a:hover {
+    text-decoration: underline !important;
 }
 
-.row.footer {
-    margin: 0;
-    padding: 0;
-}
-
-.descrp-brg {
-    font-size: 15px;
+a {
+    text-decoration: none;
 }
 
 .contenant {
@@ -54,12 +43,8 @@ form {
     transform: translate(-50% -50%);
 }
 
-.nosburger {
+p.nosburger {
     margin-left: -100% !important;
     font-size: 130px;
     margin-top: -10%;
-}
-
-.titlehome {
-    font-size: 40px;
 }
